@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-rancho: "Rancho", cursive;
+  --font-family-raleway: "raleway", sans-serif;
+  --primary: #0065fc;
+  --secondary: #deebff;
+  --lightwhite: #f2f2f2;
+  --text-regular: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: var(--font-family-raleway);
+  color: var(--text-regular);
+}
