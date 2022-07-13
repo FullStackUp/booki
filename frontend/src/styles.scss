@@ -26,6 +26,7 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 body {
@@ -39,12 +40,12 @@ body {
   padding: 10px;
 }
 
-.p-20 {
-  padding: 20px;
+.pt-30 {
+  padding-top: 40px;
 }
 
-.pr-10 {
-  padding-right: 10px;
+.pt-40 {
+  padding-top: 40px;
 }
 
 .pl-10 {
@@ -55,12 +56,8 @@ body {
   margin: 10px;
 }
 
-.m-20 {
-  margin: 20px;
-}
-
-.mb-20 {
-  margin-bottom: 20px;
+.m-15 {
+  margin: 15px;
 }
 
 // debug :
