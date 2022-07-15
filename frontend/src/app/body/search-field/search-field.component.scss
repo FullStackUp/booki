@@ -1,0 +1,53 @@
+.localization-btn {
+  border: var(--lightwhite) 3px solid;
+  border-radius: 20px 0 0 20px;
+  background-color: var(--lightwhite);
+  padding: 13px;
+  width: 50px;
+  cursor: pointer;
+  &:hover {
+    color: var(--primary);
+    border: 3px solid var(--primary);
+    background-color: var(--secondary);
+  }
+  transition: background-color 0.4s;
+}
+
+.localization-icon {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  border-right: none;
+  border-left: none;
+  border-bottom: var(--lightwhite) 3px solid;
+  border-top: var(--lightwhite) 3px solid;
+  padding: 12px;
+  width: 250px;
+  &:focus {
+    outline: none;
+    border-top: var(--primary) 3px solid;
+    border-bottom: var(--primary) 3px solid;
+  }
+}
+
+.research-btn {
+  border: 3px solid var(--primary);
+  border-radius: 15px;
+  background-color: var(--primary);
+  color: white;
+  padding: 13px;
+  margin-left: -20px;
+  cursor: pointer;
+  &:hover {
+    color: var(--primary);
+    border: 3px solid var(--primary);
+    background-color: var(--secondary);
+  }
+  transition: background-color 0.4s;
+}
+
+.research-icon {
+  font-size: 18px;
+}
