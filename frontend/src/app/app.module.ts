@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchFieldComponent } from './body/search-field/search-field.component';
+import { FiltersComponent } from './body/filters/filters.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SearchFieldComponent } from './body/search-field/search-field.component
     BodyComponent,
     FooterComponent,
     SearchFieldComponent,
+    FiltersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
