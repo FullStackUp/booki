@@ -1,7 +1,7 @@
-header {
+ul {
   display: grid;
   //rows / columns
-  grid-template: 80px 60px / 1fr 1fr;
+  grid-template: 1fr / 1fr 1fr;
 }
 
 .logo {
@@ -9,7 +9,7 @@ header {
   grid-area: 1 / 1 / 2 / 3;
   font-family: var(--font-family-rancho);
   color: var(--primary);
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ header {
 
 .activities {
   //grid-row-start / grid-column-start / grid-row-end / grid-column-end
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 1 / 1 / 2 / 3;
   display: flex;
   justify-content: center;
   align-items: center;
