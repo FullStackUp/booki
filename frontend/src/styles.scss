@@ -12,6 +12,7 @@
   --primary: #0065fc;
   --secondary: #deebff;
   --lightwhite: #f2f2f2;
+  --lightgrey: #d3d3d3;
   --text-regular: #444;
 }
 
@@ -38,6 +39,10 @@ body {
 
 .p-10 {
   padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
 }
 
 .pt-30 {

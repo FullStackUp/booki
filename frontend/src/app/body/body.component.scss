@@ -1,5 +1,4 @@
 .container-body {
-  min-width: 400px;
   max-width: 1200px;
   display: block;
   margin: auto;
@@ -10,5 +9,22 @@
 
   p {
     font-size: 18px;
+  }
+
+  .bloc-info {
+    display: grid;
+    //rows / columns
+    grid-template: 30px / 30px 1fr;
+    grid-gap: 10px;
+  }
+
+  .info-icon {
+    font-size: 16px;
+    color: var(--primary);
+    border: 1px var(--lightgrey) solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
